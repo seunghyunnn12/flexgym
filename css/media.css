@@ -1,0 +1,292 @@
+@media screen and (min-width:768px) {
+    header .menu_list {
+        position: static;
+        flex-direction: row;
+        background-color: transparent;
+        padding-top: 0;
+        width: auto;
+    }
+
+    .program .card_wrap li {
+        height: 100%;
+    }
+
+    header .menu_list li {
+        border-bottom: 0;
+    }
+
+    header .menu_list li a {
+        color: #fff;
+    }
+
+    header .menu {
+        display: none;
+    }
+
+    .hero-wrap .rel .txt_wrap h3 {
+        font-size: 2.5rem;
+    }
+
+    .hero-wrap .rel h2 {
+        text-align: initial;
+        font-size: 6.5rem;
+    }
+
+    .btn_wrap a.btn {
+        font-size: 2rem;
+    }
+
+    .hero-wrap .rel {
+        align-items: initial;
+        text-align: initial;
+    }
+
+    .hero-wrap .rel {
+        /* width: 128rem; */
+        display: flex;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .program .card_wrap {
+        display: flex;
+        /* width: 120rem; */
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .program .card_wrap li:nth-child(1) a,
+    .program .card_wrap li:nth-child(2) a,
+    .program .card_wrap li:nth-child(3) a {
+        justify-content: center
+    }
+
+    .program .card_wrap li:nth-child(1) a .txt_wrap,
+    .program .card_wrap li:nth-child(2) a .txt_wrap,
+    .program .card_wrap li:nth-child(3) a .txt_wrap {
+        margin: 0 0 5rem 0;
+    }
+
+
+    .program .card_wrap li:nth-child(1) a .img_wrap,
+    .program .card_wrap li:nth-child(2) a .img_wrap,
+    .program .card_wrap li:nth-child(3) a .img_wrap {
+        height: 47rem;
+    }
+
+    .program .card_wrap li:nth-child(1) a,
+    .program .card_wrap li:nth-child(2) a,
+    .program .card_wrap li:nth-child(3) a {
+        width: 32rem;
+        height: 47rem;
+    }
+
+    .program .card_wrap li:nth-child(4) a .img_wrap,
+    .program .card_wrap li:nth-child(5) a .img_wrap {
+        width: 48.5rem;
+        height: 28rem;
+    }
+
+    .program .card_wrap li:nth-child(4) a,
+    .program .card_wrap li:nth-child(5) a {
+        width: 48.4rem;
+        height: 28rem;
+    }
+
+    .program .card_wrap li a .img_wrap {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .program .card_wrap li:nth-child(1) a .img_wrap {
+        background-image: url(../img/pt-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(2) a .img_wrap {
+        background-image: url(../img/golf-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(3) a .img_wrap {
+        background-image: url(../img/pilates-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(4) a .img_wrap {
+        background-image: url(../img/yoga-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(5) a .img_wrap {
+        background-image: url(../img/spinning-tablet.png);
+    }
+
+    .program .card_wrap li+li {
+        margin-top: 0rem;
+    }
+
+    .program .rel {
+        margin: auto;
+    }
+
+    .program .card_wrap .txt_wrap h3 {
+        font-size: 5.5rem;
+        text-align: center;
+    }
+
+    .program .card_wrap .txt_wrap .txt {
+        font-size: 1.5rem
+    }
+
+}
+
+@media screen and (min-width:1280px) {
+    header .menu_list {
+        position: static;
+        flex-direction: row;
+        background-color: transparent;
+        padding-top: 0;
+        width: auto;
+    }
+
+    .program .card_wrap li {
+        height: 100%;
+    }
+
+    header .menu_list li {
+        border-bottom: 0;
+    }
+
+    header .menu_list li a {
+        color: #fff;
+    }
+
+    header .menu {
+        display: none;
+    }
+
+    .hero-wrap .rel .txt_wrap h3 {
+        font-size: 2.5rem;
+    }
+
+    .hero-wrap .rel h2 {
+        text-align: initial;
+        font-size: 6.5rem;
+    }
+
+    .btn_wrap a.btn {
+        font-size: 2rem;
+    }
+
+    .hero-wrap .rel {
+        align-items: initial;
+        text-align: initial;
+    }
+
+    .hero-wrap .rel {
+        width: 128rem;
+        display: flex;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .program .card_wrap {
+        display: flex;
+        width: 120rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+
+    }
+
+    .program .card_wrap li:nth-child(1) a,
+    .program .card_wrap li:nth-child(2) a,
+    .program .card_wrap li:nth-child(3) a {
+        justify-content: center
+    }
+
+    .program .card_wrap li:nth-child(1) a .txt_wrap,
+    .program .card_wrap li:nth-child(2) a .txt_wrap,
+    .program .card_wrap li:nth-child(3) a .txt_wrap {
+        margin: 0 0 5rem 0;
+    }
+
+
+    .program .card_wrap li:nth-child(1) a .img_wrap,
+    .program .card_wrap li:nth-child(2) a .img_wrap,
+    .program .card_wrap li:nth-child(3) a .img_wrap {
+        height: 57rem;
+    }
+
+    .program .card_wrap li:nth-child(1) a,
+    .program .card_wrap li:nth-child(2) a,
+    .program .card_wrap li:nth-child(3) a {
+        width: 38.5rem;
+        height: 57rem;
+    }
+
+    .program .card_wrap li:nth-child(4) a .img_wrap,
+    .program .card_wrap li:nth-child(5) a .img_wrap {
+        width: 58.4rem;
+        height: 38rem;
+    }
+
+    .program .card_wrap li:nth-child(4) a,
+    .program .card_wrap li:nth-child(5) a {
+        width: 58.4rem;
+        height: 38rem;
+    }
+
+    .program .card_wrap li a .img_wrap {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .program .card_wrap li:nth-child(1) a .img_wrap {
+        background-image: url(../img/pt-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(2) a .img_wrap {
+        background-image: url(../img/golf-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(3) a .img_wrap {
+        background-image: url(../img/pilates-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(4) a .img_wrap {
+        background-image: url(../img/yoga-tablet.png);
+    }
+
+    .program .card_wrap li:nth-child(5) a .img_wrap {
+        background-image: url(../img/spinning-tablet.png);
+    }
+
+    .program .card_wrap li+li {
+        margin-top: 0rem;
+    }
+
+    .program .rel {
+        width: 128rem;
+        margin: auto;
+    }
+
+    .program .card_wrap .txt_wrap h3 {
+        font-size: 6.5rem;
+        text-align: center;
+    }
+
+    .program .card_wrap .txt_wrap .txt {
+        font-size: 2rem
+    }
+
+
+
+    /* .program .card_wrap li:nth-child(4) a .txt_wrap{
+        margin-right: 35rem;
+
+    }
+    .program .card_wrap li:nth-child(5) a .txt_wrap {
+        margin-right: 20rem;
+    } */
+}
